@@ -1,0 +1,18 @@
+.landing-footer-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 1px solid #232323;
+    @media(max-width:450px){
+        width: 100%;
+        margin: 0;
+    }
+    .logo-container{
+        margin-top: 1em;
+        background-color: transparent;
+        img{
+            height: 50px;            
+        }
+    }
+}

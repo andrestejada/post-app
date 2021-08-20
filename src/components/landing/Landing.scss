@@ -1,0 +1,14 @@
+.landing{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    background-image: url(../../assets/fondo-landing.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    scroll-behavior: smooth;
+    @media (max-width:400px) {
+        background-size:  auto;
+    }
+        
+}

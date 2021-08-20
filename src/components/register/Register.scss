@@ -1,0 +1,14 @@
+.form-register{
+    min-height: 75.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    width: 40%;
+    @media (max-width:800px)  {
+        width: 60%; 
+    }
+    @media (max-width:600px)  {
+        width: 85%; 
+    }
+}

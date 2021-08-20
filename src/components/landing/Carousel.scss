@@ -1,0 +1,42 @@
+@import '../../styles/Varibles.scss';
+
+.carousel-container{
+    width: 90%;    
+    margin-top: 3em;
+    margin: 3em auto;
+
+    @media(max-width:450px){
+        width: 80%;
+        margin-top: 3em;
+        img{
+            width: 100%;
+        }
+    }
+   div{
+       text-align: center;
+
+       img{
+           margin: 0 auto;
+       }
+
+       p{
+           margin-top: 10px;
+       }
+   }
+}
+
+.slick-dots li button:before {
+    color: transparent;
+    background: linear-gradient(90deg, #8FFF73 0%, #8FFFF9 100%);
+    -webkit-background-clip: text;
+    opacity: 0.2;
+    font-size: 15px;    
+}
+
+
+.slick-dots li.slick-active button:before {
+    color: transparent;
+    opacity: 1;
+    background: linear-gradient(90deg, #8FFF73 0%, #8FFFF9 100%);
+    -webkit-background-clip: text;
+}

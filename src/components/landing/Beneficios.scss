@@ -1,0 +1,29 @@
+.beneficios-container{
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 46px;
+    p{
+        font-weight: 300;
+    }
+    @media(max-width:450px){
+        section{
+            width: 77%;
+        }
+        p{
+            text-align: center;
+            margin: 10px;
+            font-size: 36px;
+        }
+    }
+
+    .beneficio{
+        background: linear-gradient(270deg, #00E6E3 2.73%, #00FF68 100%);
+        width: max-content;
+        color: #000;
+        font-weight: 900;
+        padding: 3px 6px;
+        text-shadow: 1px 1px 4px  black;
+    }
+}

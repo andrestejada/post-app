@@ -1,0 +1,51 @@
+.finish-container{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7rem;    
+    width: 70%;
+    margin: 4em auto;
+    text-align: center;
+    @media(max-width:450px){
+        width: 80%;
+        & p:first-child{
+            font-size: 1.7rem;
+        }
+        p{
+            font-size: 1rem;
+        }       
+    }
+
+    span{
+        font-weight: 900;
+        color: transparent;
+        opacity: 1;
+        background: linear-gradient(270deg, #00E6E3 2.73%, #00FF68 100%);
+        -webkit-background-clip: text;
+    }
+    div{
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    img{
+        margin-right: 1em;
+    }
+    .btn-conoceMas{  
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #000;
+        width: 13.93rem;
+        padding: 15px 14px;
+        background: linear-gradient(270deg, #00E6E3 2.73%, #00FF68 100%);
+        border-radius: 30px;
+        transition: 0.3s ease all;
+         &:hover {
+            transform: scale(1.1);            
+            background: linear-gradient(150deg, #00E6E3 2.73%, #00FF68 100%);
+        }
+    }
+}
